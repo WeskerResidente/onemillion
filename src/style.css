@@ -5,14 +5,30 @@
 h2::after {
     content: "";
     display: inline-block;
-    height: 20px;
-    width: 100%;
-    background-color: #000000;
+    height: 1px;
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 120%;
+    background-color: red;
+    transform: translateX(-50%);
 
 }
 /* h2:nth-of-type(2)::after {
     width: 20%;
 } */
  h2 {
-    display: inline;
+    position: relative;
+ }
+
+ @font-face {
+   font-family: 'texte';
+ 
+   src: url(../fonts/HelveticaNeueMedium.otf);
+ }
+ 
+ @font-face {
+   font-family: 'titre';
+ 
+   src: url(../fonts/Arvo-Regular.ttf);
  }
