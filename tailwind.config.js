@@ -8,10 +8,9 @@ module.exports = {
       },
       fontFamily: {
         titre: ['titre'],
-      },
-      fontFamily: {
         texte: ['texte'],
       },
+
     },
   },
   plugins: [],
