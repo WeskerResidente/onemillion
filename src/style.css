@@ -2,24 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h2::after {
-    content: "";
-    display: inline-block;
-    height: 1px;
-    width: 10rem;
-    position: absolute;
-    left: 50%;
-    top: 120%;
-    background-color: red;
-    transform: translateX(-50%);
-
-}
-/* h2:nth-of-type(2)::after {
-    width: 20%;
-} */
-
-
- @font-face {
+@font-face {
    font-family: 'texte';
  
    src: url(../fonts/HelveticaNeueMedium.otf);
@@ -30,6 +13,27 @@ h2::after {
  
    src: url(../fonts/Arvo-Regular.ttf);
  }
+
  h2 {
    position: relative;
+
 }
+
+h2::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    background-color: red;
+    transform: translateX(-50%);
+
+}
+/* h2:nth-of-type(2)::after {
+    width: 20%;
+} */
+
+
+
